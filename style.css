@@ -8,6 +8,7 @@
 body,html{
 	font-size: 14px;
 	font-family: "Georgia",sans-serif;
+
 }
 
 /* Nice basic font*/
@@ -20,7 +21,8 @@ figcaption{
 body{
 	background-color: lavender;
 
-	margin: 15px;
+	justify-content: center;
+	justify-items: center;
 }
 /*set some pleasantly off-white colors for background*/
 img.icon{
@@ -56,12 +58,14 @@ img{
 	max-width: 130%;
 	margin: auto;
 
+
 }
 .box{
 	max-width: device-width;
-	margin: 10px;	
-	padding: 10px;
+	margin: auto;	
+	padding: auto;
 	background-color: floralwhite;
+
 }
 .box.photo{
 	padding: auto;
@@ -150,6 +154,12 @@ img.icon{
 }*/
 /*Desktop Style!*/
 @media(min-width: 780px) {
+
+body{
+	margin-left: 25%;
+	margin-right: 25%;
+	justify-content: space-evenly;
+}
 
 img{
 	max-width: device-width;
