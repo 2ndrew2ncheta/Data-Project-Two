@@ -19,7 +19,7 @@ figcaption{
 }
 
 body{
-	background-color: lavender;
+	background-color: linen;
 
 	justify-content: center;
 	justify-items: center;
@@ -62,8 +62,8 @@ img{
 }
 .box{
 	max-width: device-width;
-	margin: 20px;	
-	padding: auto;
+	margin: 15px;	
+	padding: 10px;
 	background-color: floralwhite;
 
 }
